@@ -1,4 +1,4 @@
-package abstractFactory;
+package factory.abstractFactory;
 
 public class HuaweiFactory extends PhoneAbstractFactory {
     @Override

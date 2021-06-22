@@ -1,4 +1,4 @@
-package factoryMethod;
+package factory.factoryMethod;
 
 public class DogFactory extends AnimalFactory {
     @Override

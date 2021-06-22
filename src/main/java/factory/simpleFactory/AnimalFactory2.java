@@ -1,4 +1,4 @@
-package simpleFactory;
+package factory.simpleFactory;
 
 //该简单工厂，也称为静态方法工厂
 public class AnimalFactory2 {

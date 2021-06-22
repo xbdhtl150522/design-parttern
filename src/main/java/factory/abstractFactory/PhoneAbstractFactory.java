@@ -1,4 +1,4 @@
-package abstractFactory;
+package factory.abstractFactory;
 
 public abstract class PhoneAbstractFactory {
     /*屏幕*/

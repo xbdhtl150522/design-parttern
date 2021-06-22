@@ -1,4 +1,4 @@
-package factoryMethod;
+package factory.simpleFactory;
 
 public class Cat extends Animal{
 
