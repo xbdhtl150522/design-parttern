@@ -1,4 +1,5 @@
-该目录下主要包含七种设计原则：
+设计原则
+该目录下主要包含七种：
 openClosePrinciple            开闭原则
 lawOfDemeter                  迪米特法则
 liskovSubstitutionPrinciple   里氏替换原则
