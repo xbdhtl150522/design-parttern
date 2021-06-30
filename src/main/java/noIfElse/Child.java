@@ -2,7 +2,7 @@ package noIfElse;
 
 public class Child extends Father {
     static {
-        System.out.println("child-->static");
+        System.out.println("child-->statical");
     }
 
     private int n = 20;

@@ -3,7 +3,7 @@ package noIfElse;
 public class Father {
 
     static {
-        System.out.println("super--->static");
+        System.out.println("super--->statical");
 
     }
 
