@@ -15,7 +15,7 @@ public class DoubleCheckLockSingleton implements Serializable {
     // volatile：
     // 1、禁止指令重排序
     // 2、保证可见性
-    private volatile static transient DoubleCheckLockSingleton doubleCheckLockSingleton;
+    private volatile static DoubleCheckLockSingleton doubleCheckLockSingleton;
 
     public static DoubleCheckLockSingleton getInstance() {
         if (null == doubleCheckLockSingleton) {

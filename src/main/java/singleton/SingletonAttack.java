@@ -39,6 +39,7 @@ public class SingletonAttack {
     /*
      *要防御序列化攻击，就得将instance声明为transient，并且在单例中加⼊以下语句：
      *private Object readResolve() { return instance; }
+     *注意static修饰的静态变量天然就是不可序列化的,所以上述例子不需要加transient
      * */
 
 
