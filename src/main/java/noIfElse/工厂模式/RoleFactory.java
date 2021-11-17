@@ -1,4 +1,6 @@
-package noIfElse;
+package noIfElse.工厂模式;
+
+import noIfElse.枚举方式.RoleOperator;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +16,7 @@ public class RoleFactory {
         map.put("NORMAL", new NormalRole());
     }
 
-    static RoleOperator instance(String roleName) {
+    public static RoleOperator instance(String roleName) {
         return map.get(roleName);
     }
 }

@@ -1,9 +1,16 @@
 package noIfElse;
 
+import noIfElse.原始方法.JudgeRole;
+import noIfElse.策略模式.RoleContext;
+import noIfElse.工厂模式.RoleFactory;
+import noIfElse.工厂模式.RootRole;
+import noIfElse.枚举方式.RoleEnum;
+
 /*
  * 测试
  * */
 public class Test {
+
     public static void main(String[] args) {
         //原始做法
         JudgeRole judgeRole = new JudgeRole();
@@ -17,4 +24,5 @@ public class Test {
         //策略模式
         System.out.println(new RoleContext(new RootRole()).excute());
     }
+
 }

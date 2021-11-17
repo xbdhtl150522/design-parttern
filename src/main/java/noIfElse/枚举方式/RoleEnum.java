@@ -1,4 +1,4 @@
-package noIfElse;
+package noIfElse.枚举方式;
 
 /*
  * 角色枚举类
@@ -6,16 +6,19 @@ package noIfElse;
 public enum RoleEnum implements RoleOperator {
 
     ROOT_ADMIN("ROOT_ADMIN") {
+        @Override
         public String roleOperator() {
             return "ROOT_ADMIN:" + "有A权限";
         }
     },
     ORDER_ADMIN("ORDER_ADMIN") {
+        @Override
         public String roleOperator() {
             return "ORDER_ADMIN:" + "有B权限";
         }
     },
     NORMAL("NORMAL") {
+        @Override
         public String roleOperator() {
             return "NORMAL:" + "有C权限";
         }

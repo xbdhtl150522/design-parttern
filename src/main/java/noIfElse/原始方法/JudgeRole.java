@@ -1,4 +1,4 @@
-package noIfElse;
+package noIfElse.原始方法;
 
 /*
  * 最原始if、else写法

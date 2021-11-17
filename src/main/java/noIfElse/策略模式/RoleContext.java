@@ -1,4 +1,6 @@
-package noIfElse;
+package noIfElse.策略模式;
+
+import noIfElse.枚举方式.RoleOperator;
 
 //策略模式
 public class RoleContext {
